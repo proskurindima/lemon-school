@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Doge</title>
+	<meta charset="utf-8">
+  <style >
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .wrapper {
+      width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size:0px;
+      margin-top: 132px;
+    }
+    .block {
+      display: inline-block;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .doge {
+      position: relative;
+      border: 4px solid #f00;
+    }
+    .doge img {
+      display: inline-block;
+      vertical-align: middle;
+      width: 100%;
+    }
+    .description {
+      display: none;
+      top:0;
+      left:0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-color: rgba(0,0,0, .3);
+      z-index: 1;
+    }
+    .description_text {
+      position: absolute;
+      left: 12px;
+      right: 12px;
+      background-color: #000;
+      color: #fff;
+      font-size: 20px;
+      font-family: sans-serif;
+      padding: 10px 5px;
+      bottom: 11px;
+      text-align:center;
+
+    }
+    .doge:hover .description {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+  	<div class="block">
+      <div class="doge">
+        <img src="images/doge.jpg">
+        <div class="description">
+          <span class="description_text"> doge is amazing</span>
+        </div>
+      </div>
+    </div>
+  	<div class="block">
+  		<div class="doge">
+  			<img src="images/doge.jpg">
+        <div class="description">
+          <span class="description_text"> doge is amazing</span>
+        </div>
+  		</div>
+  	</div>
+  <div class="block">
+      <div class="doge">
+        <img src="images/doge.jpg">
+        <div class="description">
+          <span class="description_text"> doge is amazing</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

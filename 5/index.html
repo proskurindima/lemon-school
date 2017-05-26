@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Doс</title>
+	<meta charset="utf-8">
+	<style>
+		html {
+			font-size: 2em
+		}
+		ul {
+			list-style-type: none;
+		}
+		.first::before {
+			content: "★"
+		}
+		.second:before {
+			content: "❤"
+		}
+		.third:before {
+			content: "☀"
+		}
+		a {
+			text-decoration: none;
+			color: #000;
+			position: relative;
+		}
+		a::after {
+			content: "";
+  			position: absolute;
+    		width: 50%;
+    		height: 1px;
+    		bottom: 1px;
+    		left: 0;
+   			border-bottom: 2px solid #000;
+		}
+		a:hover:after{
+			width: 100%;
+		}
+
+	</style>
+</head>
+<body>
+	<ul>
+		<li class="first"><a href="#">Я простая ссылка</a></li>	
+		<li class="first"><a href="#">А я ссылка с ховекром</a></li>
+		<ul>
+			<li class="second"><a href="#">И еще одна ссылка во внутреннем списке</a></li>
+			<li class="second"><a href="#">И еще одна ссылка во внутреннем списке</a></li>
+			<li class="second"><a href="#">И еще одна ссылка во внутреннем списке</a></li>
+			<ul>
+				<li class="third"><a href="#">Последняя ссылка в списке 3 уровня.</a></li>
+			</ul>
+			<li class="second"><a>Вернемся назад</a></li>
+		</ul>
+		<li class="first"><a href="#">И еще назад</a></li>	
+	</ul>		
+</body>
+</html>
