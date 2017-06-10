@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>task3</title>
+	<meta charset="utf-8">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: "Arial";
+			font-size: 14px;
+		}
+		.wrapper {
+			width: 1200px;
+			height: 600px;
+		}
+		.container {
+			width: 400px;
+			height: 207px;
+			border: 1px solid #000;
+			margin-top: 100px;
+			margin-right: auto;
+			margin-left: auto;
+			  box-shadow: 0px 20px 60px 0px rgba(0, 0, 0, 0.2),inset 0px 0px 6px 0px rgba(0, 0, 0, 0.4);
+		}
+		form {
+			margin-right: auto;
+			margin-left: auto;
+			padding: 15px;
+		}
+		input[type="text"] {
+			display: inline-block;
+			width: 100%;
+			border: 1px solid #000;
+			padding: 4px;
+			font-size: 14px;
+			height: 24px;
+		}
+		.forma-group {
+			height: 54px;
+		}
+		.forma-group label {
+			padding-bottom: 4px;
+			display: inline-block;
+			line-height: 14px;
+		}
+		.confirm {
+			height: 38px;
+		}
+		button {
+			margin-top:10px;
+			width: 118px;
+			height:20px;
+			background-color: #000;
+			color:#fff;
+			border: 1px solid #000;
+		}
+		.radio_group {
+			padding-top: 10px;
+		}
+		.radio_group label {
+			padding-right: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<form action="#">
+				<div class="forma-group">
+				  <label for="name">Ваше имя</label>
+					<input type="text" placeholder="Например,Иванов Иван иванович" id="name" name="name">
+				</div>
+				<div class="forma-group">
+				  <label for="about"> Ваш род дейтельности</label>
+					<input type="text" placeholder="Например, выращиваю огурцы" name="about" id="about">
+				</div>
+				<div class="confirm">
+		  		<p>Согласны ли вы с уловиями?</p>
+					<div class="radio_group">
+					 	<label >
+							<input type="radio" name="gender" value="male">
+				 		  Категорически ДА!
+					 	</label>
+						<label>
+						  <input type="radio" name="gender" value="female">
+						  Категорически НЕТ!
+						</label>
+					</div>
+				</div>
+				<button type="submit">Отправить</button>	
+			</form>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+/*1*/input[type="checkbox"] {
+
+}
+/*2*/
+/*3*/#message {
+	background-color: #f00;
+}
+/*4*/[id~=messege-] {
+
+}
+/*5*/a[href$=".zip"] {
+	
+}
+/*6*/*[data-action~=delete] {
+		background-color: #f00;
+}
+/*7*/
+/*8*/#messages li:nth-child(2n) {
+	background-color: #0f0;
+}
+/*9*/
+/*10*/
+/*11*/
