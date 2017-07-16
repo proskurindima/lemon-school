@@ -112,7 +112,10 @@
 	.caorusel_info>p:nth-child(1) {
 		font-size: 18px;
 	}
-	.services,.header,.about,.feature,.service,.caorusel_wrapper,.team,.logos,.work,.reviews,.blog,.contact {
+	  .main_nav nav.active {
+		left:15%;	
+	}
+	.services,.header,.about,.feature,.service,.caorusel_wrapper,.team,.logos,.work,.reviews,.blog,.contact,footer {
 		margin:0px 15% 0px  15%
 	}
 	.contact {
@@ -191,6 +194,42 @@
   }
   .reviews_info_item {
 		margin-top: 50px;
+	}
+		.main_nav nav{
+		display: none;
+	}
+	.main_nav nav.active {
+		display: block;
+		position: absolute;
+		top:60px;
+	}
+	.header_nav {
+		height: 60px
+	}
+	.shop_cart svg, .glass svg {
+		margin-left: 10px;
+	}
+	.main_nav nav.active .nav_item{
+    margin-left: 0px;
+    display: block;
+  }
+  .other {
+  	float: right;
+  }
+  .header_nav button {
+		display: inline-block;
+	}
+	.logo {
+		position: relative;
+		left: 40%;
+		transform: translateX(-50%);
+	}
+	.subscribe_forma_follow ul {
+		margin-left: 0;
+	}
+	.subscribe_forma_follow li {
+		margin-left: 4px;
+		margin-right: 4px;
 	}
 }
 
@@ -285,13 +324,18 @@
   }
   div[class*="title"] >p:nth-child(1) {
   	margin-bottom: 12px;
+  	font-size: 20px;
   }
   div[class*="title"] >p:nth-child(2) {
+  	font-size: 26px;
   }
   .examples_left, .examples_right {
   	width: 100%;
   }
-  .services,.header,.about,.feature,.service,.caorusel_wrapper,.team,.logos,.work,.reviews,.blog,.contact {
+  .main_nav nav.active {
+		left:12%;	
+	}
+  .services,.header,.about,.feature,.service,.caorusel_wrapper,.team,.logos,.work,.reviews,.blog,.contact,footer {
 		margin:0px 12% 0px  12%
 	}
 	.about_pic {
@@ -310,6 +354,9 @@
 	.map {
 		padding: 40px 0 40px 0;
 	}
+	.subscribe_forma form {
+		width: 100%;
+	}
 
 }
 @media all and (max-width: 740px) {
@@ -321,13 +368,42 @@
 	}
 }
 @media all and (max-width: 414px) {
+	.blog_other {
+		padding-top: 5px;
+	}
+	.blog_info_item_text {
+		padding-bottom: 5px;
+		margin-top:10px;
+	}
+	.blog_info_item {
+		margin-right: 0;
+		margin-bottom: 20px;
+		border-bottom: 1px solid rgb(229, 229, 229);
+	}
+	.blog_info_item_text>p:nth-child(1) {
+		margin-bottom: 5px;
+	}
 	.home_info > p:nth-child(1) {
 		font-size: 44px;
+	}
+
+	.reviews_line {
+		margin-bottom: 10px;
+	}
+	.caorusel_info>p:nth-child(1) {
+		font-size: 13px;
+	}
+	.reviews_info_line {
+		margin-bottom: 10px;
+		margin-top: 5px;
 	}
 	.home_info > p:nth-child(2) {
 		font-size: 60px;
 	}
-	.services,.header,.about,.feature,.service,.caorusel_wrapper,.team,.logos,.work,.reviews,.blog,.contact {
+	.main_nav nav.active {
+		left:10%;	
+	}
+	.services,.header,.about,.feature,.service,.caorusel_wrapper,.team,.logos,.work,.reviews,.blog,.contact,footer {
 		margin:0px 10% 0px  10%
 	}
 	.line,.about_title_line,.services_line,.feature_line,.service_line,.team_line,.work_line,.reviews_line,.blog_line  {
@@ -407,4 +483,184 @@
 	.blogs, .instagram {
 		width: 100%;
 	}
+	.next {
+		right: -15px;
+	}
+	.prev {
+		left: -15px;
+	}
+	div[class*="title"] >p:nth-child(1) {
+  	margin-bottom: 12px;
+  	font-size: 18px;
+  }
+  div[class*="title"] >p:nth-child(2) {
+  	font-size: 22px;
+  }
+  div[class*="title"] >p:nth-child(4) {
+  	font-size: 13px;
+  	line-height: ;
+  }
+  .caorusel_item {
+  	margin: 30px 2%;
+  }
+  .home {
+  	padding-top: 70px;
+  }
+  .button_bordered {
+  	margin-top: 30px;
+  }
+  .slide {
+  	padding-top: 50px;
+  }
+  .blogs_item_img {
+  	width: 90px;
+  }
+  .blogs_item {
+		margin-top: 15px;
+	}
+	.footer p {
+		font-size: 12px;
+	}
+	.reviews_info_item_img {
+		display:block;
+		float: none;
+		width: 100%;
+		margin-right: auto;
+		margin-left: auto;
+		width: 60px;
+		height: 60px;
+	}
+	.reviews_info_item_img img {
+		width: 60px;
+		height: 60px;
+		border-radius: 30px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.reviews_info_item_text {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+	.reviews_info_item_text>p:nth-child(1) {
+		text-align: center;
+	}
+	.reviews_info_item_text>p:nth-child(2) {
+		text-align: center;
+	}
+	.reviews_info_item_text>p:nth-child(4) {
+		text-align: center;
+	}
+	.reviews_info_line {
+		display: inline-block;
+	}
+	.reviews_info_item {
+		margin-top: 20px;
+	}
+	.subscribe_info p:nth-child(1) {
+		margin-bottom: 20px;
+	}
+	.subscribe_info p:nth-child(2) {
+		margin-bottom: 20px;
+	}
+	.mCSB_inside > .mCSB_container {
+		margin-right: 15px;
+	}
+}
+
+@media all and (max-width: 375px) {
+	.footer p {
+		font-size: 10px;
+	}
+	.subscribe_forma_follow ul {
+		margin-left: 0;
+	}
+	.reviews_info_item {
+		margin-top: 25px;
+	}
+	.caorusel_item_img {
+		display: none;
+	}
+	.services_item {
+		width: 100%;
+		border-bottom: 1px solid #e5e5e5;
+	}
+	.services_item_img {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+		float: none;
+	}
+	.services_info_text {
+		display: block;
+		text-align: center;
+		margin: 0;
+
+	}
+	.services_info_text p:nth-child(1){
+		margin:5px 0;
+	}
+	.home_info > p:nth-child(1) {
+		font-size: 38px;
+	}
+	.home_info > p:nth-child(2) {
+		font-size: 52px;
+	}
+	.blogs_item_info>p:nth-child(1) {
+		font-size: 10px;
+	}
+	.slide {
+		padding-top: 30px;
+	}
+}
+@media all and (max-width: 320px) {
+	.blogs_item {
+		margin-top: 10px;
+	}
+	.blogs_item_img {
+		margin-right: 10px;
+	}
+	.subscribe_forma_follow ul {
+		padding-top: 10px;
+	}
+	.footer p {
+		font-size: 8px;
+	}
+	.home_info > p:nth-child(1) {
+		font-size: 28px;
+	}
+	.home_info > p:nth-child(2) {
+		font-size: 38px;
+	}
+	.line,.about_title_line,.services_line,.feature_line,.service_line,.team_line,.work_line,.reviews_line,.blog_line  {
+		margin-top: 7px;
+	}
+	.line,.about_title_line,.service_line,.team_line,.work_line,.blog_line  {
+		margin-bottom: 7px;
+	}
+	.services_title, .about_title {
+		margin-top: 15px;
+	}
+	.feature_title, .service_title, .team_title, .work_title, .reviews_title,.blog_title {
+		padding-top:15px;
+	}
+	.services_info {
+		margin-bottom: 7px;
+	}
+	.blog_info,.reviews_info, .team_info_people {
+		padding-bottom: 10px;
+	}
+	.service_info, .about_info {
+		margin-bottom: 10px;
+	}
+	.work_title,.team_title,.service_title {
+		padding-bottom: 10px;
+	}
+	.feature_line {
+		margin-bottom: 0;
+	}
+	.reviews_line {
+		margin-bottom: 0;
+	}
+
 }
