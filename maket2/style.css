@@ -257,6 +257,9 @@
 .about_pic_item {
 	width: 100%;
 	position: relative;
+	top: 0;
+	left: 0;
+	transition: top .4s ease-in-out, left .4s ease-in-out;
 }
 .about_pic:nth-child(3) {
 	margin-right: 0;
@@ -267,7 +270,8 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	display: none;
+	opacity: 0;
+	transition: opacity .4s ease-in-out, top .4s ease-in-out, left .4s ease-in-out;
 	background-image: linear-gradient(0deg, rgba( 252, 227,138,0.9), rgba( 243, 129,129,0.9));
 } 
 .about_pic:hover .about_pic_item{
@@ -278,6 +282,7 @@
 	display: block;
 	top:-10px;
 	left: -10px;
+	opacity: 1;
 }
 .about_pic_gradient_description {
 	height: 100%;
@@ -747,6 +752,9 @@ width: 5px;
 .team_pic_item {
 	width: 100%;
 	position: relative;
+	top: 0;
+	left: 0;
+	transition: top .4s ease-in-out, left .4s ease-in-out;
 }
 .team_pic:nth-child(3) {
 	margin-right: 0;
@@ -757,7 +765,8 @@ width: 5px;
 	position: absolute;
 	top: 0;
 	left: 0;
-	display: none;
+	opacity: 0;
+	transition: opacity .4s ease-in-out, top .4s ease-in-out, left .4s ease-in-out;
 	background-image: linear-gradient(0deg, rgba( 252, 227,138,0.9), rgba( 243, 129,129,0.9));
 } 
 .team_pic:hover .team_pic_item{
@@ -768,6 +777,7 @@ width: 5px;
 	display: block;
 	top:-10px;
 	left: -10px;
+	opacity:1;
 }
 .team_pic_gradient_description {
 	height: 100%;
@@ -1206,5 +1216,299 @@ width: 5px;
 	width: 100%;
 	background-image: linear-gradient(0deg, rgba( 252, 252,252,0.85), rgba( 252, 252,252,0.85)), url(images/map.jpg);
 	background-size: cover;
-	height: 250px
+}
+.map_wrapper a{
+	text-decoration: none;
+}
+.map {
+	display: block;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 57px 0 57px 0;
+	font-size: 0px;
+	text-decoration: none;
+}
+.map p {
+	text-transform: uppercase;
+  font-size: 24px;
+  font-family: "Montserrat";
+  color: rgb(243, 129, 129);
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  margin-top: 18px;
+  text-decoration: none;
+}
+.map_line {
+	width: 60px;
+	height: 3px;
+	background-color: rgb(243, 129, 129);
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 0;
+	margin-top: 22px;
+}
+.contact_wrapper {
+	width: 100%;
+	background-color: #f8f8f8;
+}
+.contact {
+	font-size: 0;
+	margin:70px 18.75% 0px  18.75%;
+	display: inline-block;
+	padding-bottom: 70px;
+}
+.subscribe {
+	width: 40%;
+	display: inline-block;
+	float: left;
+}
+.subscribe_info p:nth-child(1) {
+  font-size: 46px;
+  font-family: "Montserrat";
+  color: rgb(204, 204, 204);
+  font-weight: bold;
+  line-height: 36px;
+  margin-bottom: 35px;
+}
+.subscribe_info p:nth-child(2) {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.subscribe_info p:nth-child(3) {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: left;
+  padding-bottom: 17px;
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+.subscribe_info>p:nth-child(3)>span {
+	font-size: 18px;
+	font-weight: 700;
+}
+.subscribe_forma {
+	width: 100%;
+	font-size: 0;
+}
+.subscribe_forma_follow {
+	padding-bottom: 35px;
+}
+.subscribe_forma_follow span {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(153, 153, 153);
+  font-style: italic;
+  line-height: 1.6;
+  text-align: left;
+  padding-top: 10px;
+  position: relative;
+  top: 5px;
+}
+.subscribe_forma_follow ul {
+	margin-left: 20px;
+	display: inline-block;
+	height: 100%;
+}
+.subscribe_forma_follow li {
+	display: inline-block;
+	margin-left: 6px;
+  margin-right: 6px;
+}
+.subscribe_forma_follow a {
+	width: 16px;
+  height: 16px;
+  display: block;
+}
+.subscribe_forma_follow a::after {
+  background-image: url(images/icons.png);
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+}
+.subscribe_forma_follow a::before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.fb::after {
+  width: 8px; height: 16px;
+  background-position: 0 0;
+}
+.tw::after {
+  width: 16px; height: 14px;
+  background-position: -27px -1px;
+}
+.ig::after {
+  width: 16px; height: 16px;
+  background-position: -56px 0;
+}
+.pi::after {
+  width: 13px; height: 16px;
+  background-position: -88px 0;
+}
+.gg::after {
+  width: 16px; height: 14px;
+  background-position: -116px -1px;
+}
+.yt::after {
+  width: 16px; height: 12px;
+  background-position: -146px -2px;
+}
+.dr::after {
+  width: 16px; height: 16px;
+  background-position: -176px 0;
+}
+.tm::after {
+  width: 10px; height: 16px;
+  background-position: -209px 0;
+}
+.subscribe_forma form {
+	width: 80%;
+	height: 40px;
+}
+.forma_group {
+	display: inline-block;
+	height: 40px;
+	width: 60%;
+	font-size: 0;
+}
+.form_button {
+	display: inline-block;
+	width: 40%;
+	height: 40px
+}
+.forma_group input {
+	height: 40px;
+	width: 100%;
+	border:1px solid #e7e7e7;
+	background-color: #f8f8f8;
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(204, 204, 204);
+  font-style: italic;
+  line-height: 1.6;
+  text-align: left;
+}
+.form_button button {
+	width: 100%;
+	height: 40px;
+	background-color:#95e1d3;
+	border: none;
+}
+.form_button button p {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.instagram {
+	display: inline-block;
+	width: 22.5%;
+}
+.blogs {
+	margin-left: 2.5%;
+	width: calc(37.5% - 8.15%);
+	margin-right: 5.6%;
+	display: inline-block;
+	float: left;
+}
+.blogs>p {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.blogs_item {
+	margin-top: 30px;
+	display: inline-block;
+	width: 100%;
+}
+.blogs_item_img {
+	float: left;
+	margin-right: 20px;
+}
+.blogs_item_img img {
+	width: 100%;
+}
+.blogs_item_info>p:nth-child(1) {
+  font-size: 12px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: left;
+}
+.blogs_item_info>p:nth-child(2) {
+  font-size: 13px;
+  font-family: "Roboto";
+  color: rgb(153, 153, 153);
+  font-style: italic;
+  line-height: 1.846;
+  text-align: left;
+}
+.instagram_items {
+	width: 100%;
+	margin-top: 30px;
+}
+.instagram_item {
+	margin-right: 2px;
+	width: calc(33.33% - 2px);
+	display: inline-block;
+	margin-bottom: 2px;
+}
+.instagram_item img {
+	width: 100%;
+}
+.instagram>p:nth-child(1) {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.instagram a p {
+	font-size: 13px;
+  font-family: "Roboto";
+  color: rgb(51, 51, 51);
+  font-style: italic;
+  line-height: 1.846;
+  text-align: left;
+  margin-top: 20px;
+}
+.instagram a {
+	text-decoration: none;
+}
+.footer {
+	background-color: #f8f8f8;
+	width: 100%;
+}
+.footer footer {
+	margin: 0px 18.75% 0px  18.75%;
+	border-top: 1px solid #e7e7e7;
+	height: 70px
+}
+.footer p {
+	line-height: 70px;
+	text-align: center;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(51, 51, 51);
+}
+.footer p span {
+	color: #f38181;
 }
