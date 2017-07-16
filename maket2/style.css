@@ -584,6 +584,7 @@
 	text-transform: uppercase;
 	line-height: 30px;
 	color: rgb(51, 51, 51);
+	cursor: pointer;
 }
 .accordion-item__header::after {
 	content: '';
@@ -677,6 +678,7 @@ width: 5px;
 	height: 20px;
 	border-top: 4px solid #d0d0d0;
 	border-right: 4px solid #d0d0d0;
+	cursor: pointer;
 }
 .next {
 	transform: rotate(45deg);
@@ -799,10 +801,12 @@ width: 5px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transition: background-color .4s ease-in-out;
 }	
 .team_description_item>svg>path {
 	display: block;
 	fill:rgb(243, 129, 129);
+	transition: fill .4s ease-in-out;
 }
 .team_description_item:nth-child(1) svg{
 	width: 13px;
@@ -1402,6 +1406,7 @@ width: 5px;
 	height: 40px;
 	background-color:#95e1d3;
 	border: none;
+	cursor: pointer;
 }
 .form_button button p {
   font-size: 14px;
