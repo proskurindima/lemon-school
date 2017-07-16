@@ -1202,3 +1202,9 @@ width: 5px;
 .blog_other_item img {
 	margin-right: 5px;
 }
+.map_wrapper {
+	width: 100%;
+	background-image: linear-gradient(0deg, rgba( 252, 252,252,0.85), rgba( 252, 252,252,0.85)), url(images/map.jpg);
+	background-size: cover;
+	height: 250px
+}
