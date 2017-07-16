@@ -1,0 +1,410 @@
+@media all and (max-width: 1300px) {
+	.counter_item>p:nth-child(2) {
+		font-size: 13px;
+	}
+	.counter_item>p:nth-child(1) {
+		font-size: 64px;
+	}
+}
+@media all and (max-width: 1200px) {
+	.nav_item {
+		margin-left: 35px;
+	}
+	.home_info > p:nth-child(2) {
+		font-size: 120px;
+	}
+	.home {
+		padding-top: 110px;
+	}
+	.slide {
+		padding-top: 110px;
+	}
+	.counter_item>p:nth-child(2) {
+		font-size: 11px;
+	}
+	.counter_item>p:nth-child(1) {
+		font-size: 56px;
+	}
+	.services_item {
+		width: 50%;
+	}	
+}
+@media all and (max-width: 1024px) {
+	.logo:hover a {
+	color: #fff;
+	}
+	.about_pic:hover .about_pic_gradient {
+		display: none;
+	}
+	.about_pic:hover .about_pic_item{
+		top: 0;
+		left:0;
+	}
+	.border1,.border2, .border3,.border4 {
+		display: none;
+	}
+	.button_bordered:hover .more {
+		color: #fff;
+	}
+	.shop_cart svg:hover, .glass svg:hover {
+		border-bottom: none;
+	}
+	.shop_cart svg:hover>path,.glass svg:hover>path{
+		fill: #fff;
+	}
+	.nav_item:hover {
+		color: #fff;
+		border-bottom: none;
+	}
+	.about_pic:hover .about_pic_item{
+		top:0;
+		left:0;
+	}
+	.about_pic:hover .about_pic_gradient{
+		display: none;
+	}
+	.team_pic:hover .team_pic_item{
+		top:0;
+		left:0;
+	}
+	.team_pic:hover .team_pic_gradient{
+		display: none;
+	}
+	.examples_item:hover .examples_gradient{
+		display: none;
+	}
+	.home_info > p:nth-child(2) {
+		font-size: 100px;
+	}
+	.home {
+		padding-top: 90px;
+	}
+	.slide {
+		padding-top: 90px;
+	}
+	.counter_item>p:nth-child(2) {
+		font-size: 10px;
+	}
+	.counter {
+		margin:0px 10% 0px  10%;
+	}
+	.services_title, .about_title {
+		margin-top: 70px;
+	}
+	.feature_title, .service_title, .team_title, .work_title, .reviews_title,.blog_title {
+		padding-top: 70px;
+	}
+	.services_info {
+		margin-bottom: 20px;
+	}
+	.blog_info,.reviews_info, .team_info_people {
+		padding-bottom: 70px;
+	}
+	.service_info, .about_info {
+		margin-bottom: 70px;
+	}
+	.services_item {
+		width: 50%;
+	}
+	.services_item:nth-child(4) {
+		border-bottom: 1px solid #e5e5e5
+	}
+	.caorusel_info>p:nth-child(1) {
+		font-size: 18px;
+	}
+	.services,.header,.about,.feature,.service,.caorusel_wrapper,.team,.logos,.work,.reviews,.blog,.contact {
+		margin:0px 15% 0px  15%
+	}
+	.contact {
+		margin-top: 70px;
+		margin-bottom: 70px;
+	}
+	.reviews_info_item_img {
+		margin-left: 0;
+	}
+	.reviews_info_item_img img {
+		width: 80px;
+		height: 80px;
+		border-radius: 40px
+	}
+	.reviews_info_item_text>p:nth-child(4) {
+		font-size: 14px;
+	}
+	.reviews_info_item_text {
+    display: inline-block;
+    width: calc(100% - 80px - 8.7%);
+	}
+	.blogs_item_img {
+		float: none;
+	}
+	.instagram {
+		width: 27.5%;
+	}
+	.blogs {
+		padding-left: 2.5%;
+		margin-left: 0;
+		border-right:1px solid #e7e7e7;
+		border-left: 1px solid #e7e7e7;
+		margin-right: 2%;
+	}
+	.instagram_item {
+		width: calc(50% - 2px);
+	}
+	.line,.about_title_line,.services_line,.feature_line,.service_line,.team_line,.work_line,.reviews_line,.blog_line  {
+		margin-top: 30px;
+	}
+	.line,.about_title_line,.service_line,.team_line,.work_line,.blog_line  {
+		margin-bottom: 30px;
+	}
+	.services_line,.feature_line,.reviews_line, {
+		margin-bottom: 5px;
+	}
+	.work_title,.team_title,.service_title {
+		padding-bottom: 70px;
+	}
+	.about_info {
+		margin-top: 70px;
+	}
+	.caorusel_item {
+		margin-top: 45px;
+		margin-bottom: 45px;
+	}
+	.home_info {
+		padding-bottom: 20px;
+	}
+	.accordion-item__header {
+		padding: 10px;
+		height: 45px;
+		line-height: 25px;
+	}
+	.accordion-item__content {
+		height: 140px;
+		padding: 10px;
+		font-size: 12px;
+	}
+	  .counter_item>p:nth-child(1) {
+  	margin-top: 70px;
+  	margin-bottom: 20px;
+  }
+  .counter_item>p:nth-child(2) {
+  	margin-bottom: 70px;
+  }
+  .reviews_info_item {
+		margin-top: 50px;
+	}
+}
+
+@media all and (max-width: 768px) {
+	.line,.about_title_line,.services_line,.feature_line,.service_line,.team_line,.work_line,.reviews_line,.blog_line  {
+		margin-top: 20px;
+	}
+	.line,.about_title_line,.service_line,.team_line,.work_line,.blog_line  {
+		margin-bottom: 20px;
+	}
+	.services_title, .about_title {
+		margin-top: 40px;
+	}
+	.feature_title, .service_title, .team_title, .work_title, .reviews_title,.blog_title {
+		padding-top: 40px;
+	}
+	.services_info {
+		margin-bottom: 10px;
+	}
+	.blog_info,.reviews_info, .team_info_people {
+		padding-bottom: 40px;
+	}
+	.service_info, .about_info {
+		margin-bottom: 40px;
+	}
+	.work_title,.team_title,.service_title {
+		padding-bottom: 40px;
+	}
+	.services_item_img {
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	.services_info_text {
+		margin-left: 60px;
+		margin-right: 15px;
+	}
+	.caorusel_item_img {
+		width: 110px;
+		height: 110px;
+		margin-right: 20px;
+	}
+	.caorusel_item_img img {
+		padding: 20px;
+	}
+	.testimonial .caorusel_item_img {
+		width: 140px;
+		height: 140px;
+	}
+	.caorusel_line > span:nth-child(2) {
+		font-size: 18px;
+	}
+	.contact {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+	.services_item {
+		margin-top: 25px;
+    padding-bottom: 25px;
+  }
+  .subscribe {
+  	width: 100%;
+  }
+  .blogs, .instagram {
+  	margin-top: 20px;
+  	width: 47%;
+  }
+  .instagram_item {
+  	width: calc(33.33% - 2px);
+  }
+  .blogs_item_img {
+  	float: left;
+  }
+  .caorusel_info>p:nth-child(1) {
+  	font-size: 15px;
+  }
+  .counter_item>p:nth-child(1) {
+  	margin-top: 50px;
+  	margin-bottom: 15px;
+  }
+  .counter_item>p:nth-child(2) {
+  	margin-bottom: 50px;
+  }
+  .home_info > p:nth-child(1) {
+  	font-size: 56px;
+  }
+  .home_info > p:nth-child(2) {
+  	font-size: 72px;
+  	line-height: 1.2;
+  }
+  .about_title > p:nth-child(1), {
+
+  }
+  div[class*="title"] >p:nth-child(1) {
+  	margin-bottom: 12px;
+  }
+  div[class*="title"] >p:nth-child(2) {
+  }
+  .examples_left, .examples_right {
+  	width: 100%;
+  }
+  .services,.header,.about,.feature,.service,.caorusel_wrapper,.team,.logos,.work,.reviews,.blog,.contact {
+		margin:0px 12% 0px  12%
+	}
+	.about_pic {
+		margin-right: 15px;
+		width: calc(33.33% - 10px);
+	}
+	.about_info {
+		margin-top: 40px;
+	}
+	.contact {
+		margin-top: 40px;
+	}
+	.reviews_info_item {
+		margin-top: 35px;
+	}
+	.map {
+		padding: 40px 0 40px 0;
+	}
+
+}
+@media all and (max-width: 740px) {
+	.feature_small {
+		display: none;
+	}
+	.counter_wrapper {
+		display: none;
+	}
+}
+@media all and (max-width: 414px) {
+	.home_info > p:nth-child(1) {
+		font-size: 44px;
+	}
+	.home_info > p:nth-child(2) {
+		font-size: 60px;
+	}
+	.services,.header,.about,.feature,.service,.caorusel_wrapper,.team,.logos,.work,.reviews,.blog,.contact {
+		margin:0px 10% 0px  10%
+	}
+	.line,.about_title_line,.services_line,.feature_line,.service_line,.team_line,.work_line,.reviews_line,.blog_line  {
+		margin-top: 10px;
+	}
+	.line,.about_title_line,.service_line,.team_line,.work_line,.blog_line  {
+		margin-bottom: 10px;
+	}
+	.services_title, .about_title {
+		margin-top: 25px;
+	}
+	.feature_title, .service_title, .team_title, .work_title, .reviews_title,.blog_title {
+		padding-top:25px;
+	}
+	.services_info {
+		margin-bottom: 10px;
+	}
+	.blog_info,.reviews_info, .team_info_people {
+		padding-bottom: 25px;
+	}
+	.service_info, .about_info {
+		margin-bottom: 25px;
+	}
+	.work_title,.team_title,.service_title {
+		padding-bottom: 25px;
+	}
+	.services_item_img {
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+	.services_info_text {
+		margin-left: 40px;
+		margin-right: 10px;
+	}
+	.caorusel_item_img {
+		width: 70px;
+		height: 70px;
+		margin-right: 15px;
+	}
+	.caorusel_item_img img {
+		padding: 10px;
+		height: 100%;
+		width: 100%;
+	}
+	.testimonial .caorusel_item_img {
+		width: 110px;
+		height: 110px;
+	}
+	.service_info_left {
+		display: none;
+	}
+	.service_info_right {
+		width: 100%;
+	}
+	.team_pic {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.team_info_people {
+		display: none;
+	}
+	.logos_wrapper {
+		display: none;
+	}
+	.services_info_text p:nth-child(2) {
+		font-size: 13px;
+	}
+	.reviews_info_item {
+		width: 100%;
+	}
+	.blog_info_item {
+		width: 100%;
+	}
+	.contact {
+		margin-top: 20px;
+	}
+	.blogs, .instagram {
+		width: 100%;
+	}
+}
