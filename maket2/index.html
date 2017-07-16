@@ -10,6 +10,7 @@
 	<link media="screen" rel="stylesheet" href="media.css">
 </head>
 <body>
+	<div id="up">	</div>
 	<div class="wrapper">
 		<div class="header_wrapper">
 			<div class="header">
@@ -783,5 +784,38 @@
 	<script src="js/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.js"></jquery>"></script>
 	<script type="text/javascript" src="js/slick/slick/slick.min.js"></script>
 	<script src="js/accordion.js"></script>
+	<script>
+		function bodyAnimateScroll(top) {
+			$('html, body').stop().animate({
+				scrollTop: top
+			}, 400)
+		}
+
+		$('a').on('click', function(event) {
+			event.preventDefault();
+			var selector = $(this).attr('href');
+			var top = $(selector).offset().top
+			bodyAnimateScroll(top)
+		});
+
+		$('#up').on('click', function() {
+			bodyAnimateScroll(0)	
+		})
+
+
+		function toggleUpBtn() {
+			if ($('body').scrollTop() > window.innerHeight) {
+				$('#up').addClass('active')
+			} else {
+				$('#up').removeClass('active')
+			}
+		}
+
+		toggleUpBtn()
+
+		$(window).on('scroll', function() {
+			toggleUpBtn()
+		})
+	</script>
 </body>
 </html>

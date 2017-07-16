@@ -1544,3 +1544,26 @@ width: 5px;
 	background-color: #fff;
 	width: 100%;
 }
+#up {
+	position: fixed;
+	background-color: transparent;
+	width: 20px;
+	height: 20px;
+	bottom: 20px;
+	right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border-right: 5px solid #f38181;
+	border-top: 5px solid #f38181;
+	transition: transform .2s ease-in;
+	transform: translate(0, 80px);
+	z-index: 100;
+	border-bottom-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+#up.active {
+	transform: rotate(-45deg);
+
+}
