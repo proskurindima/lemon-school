@@ -367,8 +367,6 @@ label[for="nav-trigger"] {
 }
 .examples_item {
 	float: left;
-	width: 25%;
-	height: 100%;
 	position: relative;
 }
 .examples_item img {
