@@ -179,7 +179,7 @@ label[for="nav-trigger"] {
 	line-height: 47px;
 	color:#0b1016;
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 14;
 	letter-spacing: 0.15em;
 	font-weight: 800;
 }
@@ -367,6 +367,8 @@ label[for="nav-trigger"] {
 }
 .examples_item {
 	float: left;
+	width: 25%;
+	height: 100%;
 	position: relative;
 }
 .examples_item img {
